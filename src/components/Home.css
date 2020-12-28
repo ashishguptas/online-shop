@@ -1,0 +1,59 @@
+.product_list {
+    display: flex;
+    flex-wrap: wrap;
+}
+.product_list a {
+    text-decoration: none;
+}
+.product_box {
+    flex: 1 1 250px;
+    padding: 20px;
+    margin: 10px;
+    box-shadow: rgba(0, 0, 0, 0.11) 0px 3px 16px 0px;
+}
+.product_img {
+    text-align: center;
+}
+.product_img img{
+    width: 200px;
+    height: 200px;
+    object-fit: contain;
+}
+.product_name {
+    display: inline-block;
+    width: 240px;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+    padding: 5px 0px;
+    color: #212122;
+}
+.row_info {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.product_discount {
+    font-size: 25px;
+    font-weight: 600;
+    color: #212121;
+}   
+.price_strike {
+    text-decoration: line-through;
+    font-size: 14px;
+    color: #878787;
+}
+.price_dis{
+    color: #388e3c;
+    font-size: 13px;
+    letter-spacing: -.2px;
+    font-weight: 600;
+    margin-left: 5px;
+}
+.app_dropdown{
+    min-width: 100px !important;
+    margin: 15px 0px !important;
+}
+.app_dropdown .MuiInputLabel-formControl{
+    padding-left: 10px;
+}
